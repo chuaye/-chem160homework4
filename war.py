@@ -30,5 +30,5 @@ for i in range(trials):
         results.append(bscore-ascore)
     if ascore==bscore:
         results.append(ascore-bscore)
-for i in range(0,52,2):
+for i in range(0,54,2):
     print (i,results.count(i)/trials)
